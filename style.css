@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px 0px 50px 50px;
+    width: 1000px;
+    height: 500px;
+}
+
+body > h1 {
+    text-align: center;
+    margin: 10px 0px;
+    padding-right: 200px;
+}
+
+nav{
+    width: 660px;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.mainContainer{
+    display: flex;
+}
+
+.profile{
+    width: 155px;
+    height: 150px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.profile p {
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: 2px solid #507d2a;
+}
+
+.user {
+    border: 3px solid black;
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.like-Box {
+    width: 450px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.like-Box p {
+    margin-left: 130px;
+}
+
+button {
+    width: 60px;
+    color: goldenrod;
+    background-color: #507d2a;
+}
